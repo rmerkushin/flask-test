@@ -25,13 +25,13 @@
 JSON Schema:
 ```json
 {
-    'type': 'object',
-    'properties': {
-        'ip': {'type': 'string', 'format': 'ipv4'},
-        'path': {'type': 'string', 'minLength': 1}
+    "type": "object",
+    "properties": {
+        "ip": {"type": "string", "format": "ipv4"},
+        "path": {"type": "string", "minLength": 1}
     },
-    'additionalProperties': False,
-    'required': ['ip', 'path']
+    "additionalProperties": false,
+    "required": ["ip", "path"]
 }
 ```
 
